@@ -10,6 +10,13 @@ if (cislo1 < cislo2)
 }
 else
 {
-    Console.WriteLine($"{cislo2},{cislo1} ");
+    if (cislo2 < cislo1)
+    { 
+        Console.WriteLine($"{cislo2},{cislo1} ");
+    }
+    else
+    {
+        Console.WriteLine("Čísla jsou shodná");
+    }
 }
 
